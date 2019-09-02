@@ -13,15 +13,15 @@ Leia (x)
 Escreval (" ")
 
 Para x de 1 até x faca
-  Escreva ("Digite o primeiro valor: ")
+  Escreva ("Digite o valor que deseja calcular: ")
   Leia (n)
   n <- 1 / n
   h <- h + n
+  Escreval (" ")
 FIMPARA
 
 i <- x / h
 
-Escreval (" ")
 Escreva ("A média harmônica entre os valores digitados é: ", i)
 
 
