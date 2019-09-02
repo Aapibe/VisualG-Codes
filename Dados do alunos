@@ -1,0 +1,101 @@
+Algoritmo "semnome"
+// Autor(a)    : Natan Santana de Vasconcelos
+// Data atual  : 02/09/2019
+Var
+
+Nome : Caractere
+Faltas : Inteiro
+notaum, notadois, notatres, notaquatro, mediafinal, somafinal: Real
+
+Inicio
+// Nomes
+Escreval ("Entre com os dados do aluno")
+Escreval (" ")
+Escreva ("Nome do aluno: ")
+  Leia (Nome)
+Escreval (" ")
+
+// Faltas
+Escreva ("Digite o número de faltas: ")
+  Leia (Faltas)
+Escreval (" ")
+Se Faltas > 20 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+Se notaum < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
+// Primeira avaliação
+Escreva ("Digite a nota da primeira avaliação: ")
+  Leia (notaum)
+Escreval (" ")
+Se notaum > 10 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+Se notaum < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
+// Segunda avaliação
+Escreva ("Digite a nota da segunda avaliação: ")
+  Leia (notadois)
+Escreval (" ")
+Se notadois > 10 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+Se notadois < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
+// Terceira avaliação
+Escreva ("Digite a nota da terceira avaliação: ")
+  Leia (notatres)
+Escreval (" ")
+Se notatres > 10 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+Se notatres < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
+// Quarta avaliação
+Escreva ("Digite a nota da quarta avaliação: ")
+  Leia (notaquatro)
+Escreval (" ")
+Se notaquatro > 10 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+Se notaquatro < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
+// Média
+somafinal <- notaum + notadois + notatres + notaquatro
+mediafinal <- somafinal / 4
+
+// Apresentação dos dados
+Escreval ("Nome do aluno: ", Nome)
+Escreval (" ")
+Escreval ("Quantidade de faltas: ", Faltas)
+Escreval (" ")
+Escreval ("Notas obtidas nas avaliações:")
+Escreval (" ")
+Escreval ("A1:", notaum)
+Escreval ("A2:", notadois)
+Escreval ("A3:", notatres)
+Escreval ("A4:", notaquatro)
+Escreval (" ")
+Escreval ("A média final do aluno é: ", mediafinal)
+
+Fimalgoritmo
