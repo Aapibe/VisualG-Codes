@@ -1,0 +1,24 @@
+Algoritmo "areadocirculo"
+// Autor(a)    : Natan Santana de Vasconcelos
+// Data atual  : 02/09/2019
+Var
+
+Raio, Area : Real
+
+Inicio
+
+Escreva ("Digite o raio da circulo: ")
+  Leia (Raio)
+Escreval (" ")
+
+Se 0<Raio Entao
+  Area <- pi * raio^2
+  Escreva ("A area do círculo é: ", Area)
+FIMSE
+
+Se Raio < 0 Entao
+  Escreva ("O valor digitado é invalido")
+FIMSE
+
+Escreval (" ")
+Fimalgoritmo
