@@ -23,6 +23,11 @@ Se Faltas > 20 Entao
   Escreva ("O valor digitado não é valido")
   Fimalgoritmo
 FIMSE
+Se Faltas < 0 Entao
+  Escreva ("O valor digitado não é valido")
+  Fimalgoritmo
+FIMSE
+
 Se notaum < 0 Entao
   Escreva ("O valor digitado não é valido")
   Fimalgoritmo
