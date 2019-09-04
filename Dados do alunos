@@ -87,6 +87,7 @@ somafinal <- notaum + notadois + notatres + notaquatro
 mediafinal <- somafinal / 4
 
 // Apresentação dos dados
+Limpatela
 Escreval ("Nome do aluno: ", Nome)
 Escreval (" ")
 Escreval ("Quantidade de faltas: ", Faltas)
