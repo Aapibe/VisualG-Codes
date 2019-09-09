@@ -1,0 +1,91 @@
+Algoritmo "area"
+// Autor(a)    : Natan
+// Data atual  : 09/09/2019
+Var
+
+deseja : caractere
+opcao : inteiro
+lado, Area, base, altura, basemenor, basemaior : real
+
+Inicio
+//Menu
+Repita
+Limpatela
+Escreval ("Menu")
+Escreval (" ")
+Escreval ("1)Calcular a área do quadrado")
+Escreval ("2)Calcular a área do triângulo")
+Escreval ("3)Calcular a área do trapézio")
+Escreval ("4)Calcular a área do retângulo")
+Escreval ("5)SAIR")
+Escreval (" ")
+Escreva ("Escolha uma opção: ")
+ Leia (opcao)
+  
+//Escolha
+Escolha (opcao)
+ Caso 1
+  Limpatela
+  Escreval ("Vamos calcular a área do quadrado!")
+  Escreval (" ")
+  Escreva ("Insira o lado do quadrado: ")
+   Leia (lado)
+  Escreval (" ")
+   Area <- lado * lado
+  Escreval ("A área do quadrado de lado", lado," é: ", Area)
+  Escreval (" ")
+  Escreva ("Deseja continuar?[s/n] ")
+   Leia (deseja)
+ Caso 2
+  Limpatela
+  Escreval ("Vamos calcular a área do triângulo!")
+  Escreval (" ")
+  Escreva ("Insira a base do triângulo: ")
+   Leia (lado)
+  Escreval (" ")
+  Escreva ("Insira a altura do triângulo: ")
+   Leia (altura)
+  Escreval (" ")
+   Area <- (lado * altura)/2
+  Escreval ("A área do triângulo de base", base," e altura", altura," é: ", Area)
+  Escreval (" ")
+  Escreva ("Deseja continuar?[s/n] ")
+   Leia (deseja)
+ Caso 3
+  Limpatela
+  Escreval ("Vamos calcular a área do trapézio!")
+  Escreval (" ")
+  Escreva ("Insira a base menor do trapézio: ")
+   Leia (basemenor)
+  Escreval (" ")
+  Escreva ("Insira a base maior do trapézio: ")
+   Leia (basemaior)
+  Escreval (" ")
+  Escreva ("Insira a altura do trapézio: ")
+   Leia (altura)
+  Escreval (" ")
+   Area <- ((basemenor+basemaior)*altura)/2
+  Escreval ("A área do trapézio de bases", basemenor, basemaior," e altura", altura," é: ", Area)
+  Escreval (" ")
+  Escreva ("Deseja continuar?[s/n] ")
+   Leia (deseja)
+ Caso 4
+  Limpatela
+  Escreval ("Vamos calcular a área do retângulo!")
+  Escreval (" ")
+  Escreva ("Insira a base do retângulo: ")
+   Leia (base)
+  Escreval (" ")
+  Escreva ("Insira a altura do retângulo: ")
+   Leia (altura)
+  Escreval (" ")
+   Area <- base * altura
+  Escreval ("A área do retângulo de base", base," e altura", altura," é: ", Area)
+  Escreval (" ")
+  Escreva ("Deseja continuar?[s/n] ")
+   Leia (deseja)
+ Caso 5
+ fimalgoritmo
+ Fimescolha
+Ate (deseja = "n")
+Fimalgoritmo
