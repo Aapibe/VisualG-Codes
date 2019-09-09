@@ -1,0 +1,135 @@
+Algoritmo "dados do aluno"
+// Autor(a)    : Natan Santana de Vasconcelos
+// Data atual  : 02/09/2019
+
+Var
+
+Nome, deseja : Caractere
+Faltas : Inteiro
+notaum, notadois, notatres, notaquatro, mediafinal, somafinal: Real
+
+Inicio
+
+// Nome
+Escreval ("Entre com os dados do aluno")
+Escreval (" ")
+Escreva ("Nome do aluno: ")
+  Leia (Nome)
+Escreval (" ")
+
+// Faltas
+limpatela
+Escreva ("Digite o número de faltas: ")
+  Leia (Faltas)
+Enquanto (Faltas > 20) ou (Faltas < 0) faca
+  Escreval (" ")
+  Escreval ("O valor digitado não é valido")
+  Escreval (" ")
+  Escreva ("Deseja tentar outra vez?(s/n) ")
+    Leia (deseja)
+  Se deseja = "s" entao
+  Escreval (" ")
+  Escreva ("Digite o número de faltas: ")
+    Leia (Faltas)
+  senao
+  Fimalgoritmo
+  FIMSE
+FIMENQUANTO
+
+
+// Primeira avaliação
+limpatela
+Escreva ("Digite a nota da primeira avaliação: ")
+  Leia (notaum)
+Enquanto (notaum > 10) ou (notaum <0) faca
+  Escreval (" ")
+  Escreval ("O valor digitado não é valido")
+  Escreval (" ")
+  Escreva ("Deseja tentar outra vez?(s/n) ")
+    Leia (deseja)
+  Se deseja = "s" entao
+  Escreval (" ")
+  Escreva ("Digite a nota da primeira avaliação: ")
+    Leia (notaum)
+  senao
+  Fimalgoritmo
+FIMSE
+FIMENQUANTO
+
+// Segunda avaliação
+limpatela
+Escreva ("Digite a nota da segunda avaliação: ")
+  Leia (notadois)
+Enquanto (notadois > 10) ou (notadois < 0) faca
+  Escreval (" ")
+  Escreval ("O valor digitado não é valido")
+  Escreval (" ")
+  Escreva ("Deseja tentar outra vez?(s/n) ")
+    Leia (deseja)
+  Se deseja = "s" entao
+  Escreval (" ")
+  Escreva ("Digite a nota da segunda avaliação: ")
+    Leia (notadois)
+  senao
+  Fimalgoritmo
+FIMSE
+FIMENQUANTO
+
+// Terceira avaliação
+limpatela
+Escreva ("Digite a nota da terceira avaliação: ")
+  Leia (notatres)
+Enquanto (notatres > 10) ou (notatres < 0) faca
+  Escreval (" ")
+  Escreval ("O valor digitado não é valido")
+  Escreval (" ")
+  Escreva ("Deseja tentar outra vez?(s/n) ")
+    Leia (deseja)
+  Se deseja = "s" entao
+  Escreval (" ")
+  Escreva ("Digite a nota da terceira avaliação: ")
+    Leia (notatres)
+  senao
+  Fimalgoritmo
+FIMSE
+FIMENQUANTO
+
+// Quarta avaliação
+limpatela
+Escreva ("Digite a nota da quarta avaliação: ")
+  Leia (notaquatro)
+Enquanto (notaquatro > 10) ou (notaquatro < 0) faca
+  Escreval (" ")
+  Escreval ("O valor digitado não é valido")
+  Escreval (" ")
+  Escreva ("Deseja tentar outra vez?(s/n) ")
+    Leia (deseja)
+  Se deseja = "s" entao
+  Escreval (" ")
+  Escreva ("Digite a nota da quarta avaliação: ")
+    Leia (notaquatro)
+  senao
+  Fimalgoritmo
+FIMSE
+FIMENQUANTO
+
+// Média
+somafinal <- notaum + notadois + notatres + notaquatro
+mediafinal <- somafinal / 4
+
+// Apresentação dos dados
+Limpatela
+Escreval ("Nome do aluno: ", Nome)
+Escreval (" ")
+Escreval ("Quantidade de faltas: ", Faltas)
+Escreval (" ")
+Escreval ("Notas obtidas nas avaliações:")
+Escreval (" ")
+Escreval ("A1:", notaum)
+Escreval ("A2:", notadois)
+Escreval ("A3:", notatres)
+Escreval ("A4:", notaquatro)
+Escreval (" ")
+Escreval ("A média final do aluno é: ", mediafinal)
+
+Fimalgoritmo
