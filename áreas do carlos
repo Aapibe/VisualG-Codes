@@ -1,0 +1,76 @@
+Algoritmo "cálculo de áreas de polígonos"
+// Autor(a)    : carlo o brabo
+// Data atual  : 12/09/2019
+Var
+// Seção de Declarações das variáveis 
+
+     x:inteiro
+     y, a, b, area:real
+     z:caracter
+     
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+repita
+limpatela
+escreval ("menu")
+escreval ("1)área do círculo")
+escreval ("2)área do triângulo")
+escreval ("3)área do trapézio")
+escreval ("4)área do retângulo")
+escreval ("5)sair")
+escreva ("escolha a opção que deseja efetuar:")
+leia (x)
+limpatela
+escolha (x)
+
+//círculo
+caso 1
+escreva ("digite o tamanho do raio desejado:")
+leia (y)
+area <- pi * y * y
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+//triangulo
+caso 2
+escreva ("digite a base do triângulo desejada:" )
+leia (a)
+escreva ("digite a altura do triângulo desejada:" )
+leia (b)
+area <- (a*b)/2
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+//trapézio
+caso 3
+escreva ("digite a base maior do trapézio desejada:" )
+leia (y)
+escreva ("digite a base menor do trapézio desejada:" )
+leia (a)
+escreva ("digite a altura do trapézio desejada:" )
+leia (b)
+area <- ((y+a)*b)/2
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+// retângulo
+caso 4
+escreva ("digite o tamanho da base desejado:")
+leia (y)
+escreva ("digite o tamanho da altura desejado:")
+leia (a)
+area <- y * a
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+//sair
+caso 5
+escreva ("obrigado pelo uso")
+fimalgoritmo
+fimescolha
+ate (z = "nao")
+Fimalgoritmo
