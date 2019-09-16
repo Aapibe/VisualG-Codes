@@ -1,0 +1,70 @@
+Algoritmo "cálculo de áreas de polígonos"
+// Autor(a)    : carlo o brabo
+// Data atual  : 12/09/2019
+Var
+// Seção de Declarações das variáveis
+
+     x:inteiro
+     y, a, b, area:real
+     enter ,z:caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+repita
+limpatela
+escreval ("menu")
+escreval ("1)área do círculo")
+escreval ("2)área do triângulo")
+escreva ("escolha a opção que deseja efetuar:")
+leia (x)
+limpatela
+escolha (x)
+
+//círculo
+caso 1
+escreval ("escolha o método que deseja calcular:")
+escreval ("")
+escreval("1)utilizando o raio")
+escreval("2)utilizando o diâmetro")
+leia (x)
+limpatela
+escolha(x)
+
+//raio
+caso 1
+escreva ("digite o tamanho do raio desejado:")
+leia (y)
+area <- pi * y * y
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+//diâmetro
+caso 2
+escreva ("digite o tamanho do diametro desejado:")
+leia (y)
+area <- pi * y/2 * y/2
+escreval ("o valor da área encontrada foi:", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+
+//triangulo
+caso 2
+escreva ("digite a base do triângulo desejada:" )
+leia (a)
+escreva ("digite a altura do triângulo desejada:" )
+leia (b)
+area <- (a*b)/2
+escreval ("o valor da área encontrada foi: ", area)
+escreva ("deseja continuar?(sim/nao) ")
+leia (z)
+
+//outro caso
+outrocaso
+escreval("código inválido")
+escreval("pressione ENTER para continuar")
+leia (enter)
+fimescolha
+ate (z = "nao")
+Fimalgoritmo
