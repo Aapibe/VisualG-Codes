@@ -1,0 +1,24 @@
+Algoritmo "fatorial de n?"
+// Autor(a)    : Natan Santana
+// Data atual  : 30/09/2019
+Var
+
+   x, y, z, i : inteiro
+Inicio
+
+   y <- 1
+   i <- 1
+   Escreval ("Vamos calcular o fatorial de um número!")
+   Escreval (" ")
+   Escreva ("Insira um número inteiro: ")
+   Leia (x)
+   
+   Para i de i até x faca
+   y <- y * i
+   i <- i + 1
+   fimpara
+   
+   Escreval (" ")
+   Escreval ("O fatorial de", x," é:", y)
+
+Fimalgoritmo
