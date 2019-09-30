@@ -1,0 +1,40 @@
+Algoritmo "impar ou par?"
+// Autor(a)    : Natan Santana
+// Data atual  : 30/09/2019
+Var
+
+   x, y, z : inteiro
+Inicio
+
+   Escreva ("Insira o primeiro um número inteiro: ")
+   leia (x)
+   Escreva ("Insira o segundo um número inteiro: ")
+   leia (y)
+   Escreva ("Insira o terceiro um número inteiro: ")
+   leia (z)
+
+   Se (x mod 2) = 0 entao
+      Escreval (" ")
+      Escreval ("O primeiro número inserido é par")
+   senao
+      Escreval (" ")
+      Escreval ("O primeiro número é impar")
+   fimse
+   
+   Se (y mod 2) = 0 entao
+      Escreval (" ")
+      Escreval ("O segundo número inserido é par")
+   senao
+      Escreval (" ")
+      Escreval ("O segundo número é impar")
+   fimse
+   
+   Se (z mod 2) = 0 entao
+      Escreval (" ")
+      Escreval ("O terceiro número inserido é par")
+   senao
+      Escreval (" ")
+      Escreval ("O terceiro número é impar")
+   fimse
+
+Fimalgoritmo
