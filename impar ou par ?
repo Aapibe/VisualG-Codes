@@ -1,0 +1,25 @@
+Algoritmo "impar ou par?"
+// Autor(a)    : Natan Santana
+// Data atual  : 30/09/2019
+Var
+
+   y, z : real
+   x : inteiro
+Inicio
+
+   Escreva ("Insira um número inteiro: ")
+   Leia (x)
+
+   y <- x % 2
+
+   Se y = 0 entao
+   Escreval (" ")
+   Escreval ("O número inserido é par")
+   fimalgoritmo
+   senao
+   Escreval (" ")
+   Escreval ("O número é impar")
+   fimse
+
+
+Fimalgoritmo
