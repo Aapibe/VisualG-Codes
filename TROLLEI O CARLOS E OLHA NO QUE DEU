@@ -1,0 +1,16 @@
+Algoritmo "impar ou par?"
+// Autor(a)    : Natan Santana
+// Data atual  : 30/09/2019
+Var
+
+   y, z : real
+   x : inteiro
+Inicio
+
+   Escreval ("Natan - Pega a tampa ae Carlos!")
+   Escreval (" ")
+   Escreval ("Carlos - Que tampa pivete? ")
+   Escreval (" ")
+   Escreval ("Natan - A do seu cu viado! TROLLEI KKKJK!")
+
+Fimalgoritmo
