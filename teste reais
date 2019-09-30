@@ -1,0 +1,27 @@
+Algoritmo "teste de números reais"
+// Autor(a)    : Natan Santana
+// Data atual  : 30/09/2019
+Var
+
+   x : real
+
+Inicio
+
+   Escreva ("Insira um número real qual quer: ")
+   Leia(x)
+   Se x = 0 entao
+      Escreval (" ")
+      Escreval ("O número inserido é o número zero ")
+   fimse
+   Se x > 0 entao
+      Escreval (" ")
+      Escreval ("O número inserido é positivo ")
+   fimse
+   Se x < 0 então
+      Escreval (" ")
+      Escreval ("O número inserido é negativo ")
+   fimse
+
+
+
+Fimalgoritmo
